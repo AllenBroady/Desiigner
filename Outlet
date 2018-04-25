@@ -1,0 +1,74 @@
+import panda as pd 
+import numpy as np 
+import mathplot.lib.pyploy as plt 
+
+#pylab inline 
+
+pd.set_option('display.mp1_styl', default)
+brfixed_df= pd.read_csv('../data/bikes.csv', sep';', encoding='latin1',parse_dates=['Date'], parse_dates=['Dates'], dayfirst=True, index_col='Date')oken_df=pd.read.csv('..data/bikes/csv')
+brfixed_df[:3]noise_complaints = complaints[coplaints['Complaint Type'] == Noise=StreetSidewalk
+
+rs)
+import ppandas as pd 
+
+pd.set_option('display.line_width', 5000)
+pd.set_option('display.maxcolums', 60)
+
+
+IsolationNoise
+Complaints[:5]
+noise_complaints = complaints[coplaints['Complaint Type'] == Noise=StreetSidewalk
+noise_complaintx[is_noise & in_brooklyn][:5]
+
+pd.Series(p[1,2,3])
+
+
+is_noise = complaints['Complaint Type'] == 'Noise - Street/Sidewalk"
+
+fixed_df['Berri']
+fixed_df['Berri 1'].plot()
+fixed_df.plot(figsize=(15,10))
+
+bikes = pd.read_csv('.../data/bikes.cs'
+sep= ':' encodning ='1atin1'
+parse_dates=['Date'], dayfirst=True
+index_col='Date')
+#Add the weekday Coul7m 
+berrie)bikes= bikes [['Berri']]
+
+berri_bikes['weekday'] = berri_bikes.index.weekday
+
+weekday_counts = berri_bikes.groupby('weekday').aggregate(sum)
+weekday_counts.index = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday]
+
+
+
+
+data-pd.read.csb("hubble_data.csv")
+
+headers=["dist", "rec_vel"]
+data_no_headers=pd.read.csv("hubble_data_no_headers.csv", names=heade
+noise_comoplaints = complaints[is_noise =
+noise_complaint['Borough'].value_counts()
+noise_complaint_counts / complaint/ conmplaint.counts.astype(float)
+(noise_complaint_counts/complaint_counts/complaint_counts/astupe(float)).plot(kind ='bar')
+
+bikes = [d.read.vsc('../data/bikes.csv', sep=';' enconding = 'latin1', pars_dates - ['Data'], dayfirst = True, index_co
+49headers=["dist", "rec_vel"]50data_no_headers=pd.read.csv("hubble_data_no_headers.csv", names=heade51noise_comoplaints = complaints[is_noise =52noise_complaint['Borough'].value_counts()53noise_complaint_counts / complaint/ conmplaint.counts.astype(float)54(noise_complaint_counts/complaint_counts/complaint_counts/astupe(float)).plot(kind ='bar')5556bikes = [d.read.vsc('../data/bikes.csv', sep=';' enconding = 'latin1', pars_dates - ['Data'], dayfirst = True, index_co57bikes['Berri 1'].plot()58weekday_counts = berri_bikes.groupby('weekday').aggregate(sum)weekday_counts59606162import pandas as pd 63pd.set_option('display.mp1style', default')64figsize(15,3)65666712.68weather_2014_final = pd.read_csv('../data/weather_2012.csv' , index_col= 'Date/Time')69weather_2012_final['Temp(C)'].plot(figsize=(15,6))7071url_template = "http://climate.weather.gc.ca/climateData/bulkdata_e.html?format=csv&stationID=5415&Year={year}&Month={month}&timeframe=1&submit=Download+Data"72
+
+bikes['Berri 1'].plot()
+weekday_counts = berri_bikes.groupby('weekday').aggregate(sum)weekday_counts
+
+
+
+import pandas as pd 
+pd.set_option('display.mp1style', default')
+figsize(15,3)
+
+
+12.
+weather_2014_final = pd.read_csv('../data/weather_2012.csv' , index_col= 'Date/Time')
+weather_2012_final['Temp(C)'].plot(figsize=(15,6))
+
+url_template = "http://climate.weather.gc.ca/climateData/bulkdata_e.html?format=csv&stationID=5415&Year={year}&Month={month}&timeframe=1&submit=Download+Data"
+
